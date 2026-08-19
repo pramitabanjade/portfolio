@@ -1,0 +1,141 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    height: 70px;
+    background: #222;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+.home {
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("girl.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.home h1 {
+    font-size: 45px;
+}
+
+.home span {
+    color:white;
+}
+
+.home p {
+    margin: 15px 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: cyan;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 60px;
+    background:white;
+}
+
+
+.about-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid cyan;
+}
+
+
+.about-text {
+    max-width: 550px;
+}
+
+.about-text h1 {
+    font-size: 35px;
+    color: #00adb5;
+
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+ 
+
+#contact {
+    min-height: 40vh;
+    text-align: center;
+    padding: 80px 10%;
+}
+
+#contact h1 {
+    color: black;
+    margin-bottom: 20px;
+}
